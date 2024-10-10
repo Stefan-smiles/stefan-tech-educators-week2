@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#image-selector {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 25px;
+  z-index: 1;
+}
+#image-selector img {
+  height: 75px;
+  border: 10px;
+  padding: 10px;
+}
+
+#image-background {
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
